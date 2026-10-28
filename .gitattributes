@@ -1,0 +1,13 @@
+# Text file normalization
+# Exclude build artifacts
+docs/*.html linguist-vendored
+*.min.css linguist-generated
+* text=auto
+
+build/* linguist-vendored
+src/*.ts linguist-detectable
+*.tsx linguist-detectable
+*.htm linguist-vendored
+*.map linguist-generated
+go.sum linguist-generated
+# eof 27afa204
